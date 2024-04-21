@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'RussischSansRegular';
+}
+
+p {
+    line-height:200%;
+}
+
+
+
+#navbar .navclass {
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.09);
+
+}
+
+#navbar .navclass img {
+    width: 100px;
+    margin-right: 450px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#navbar .navclass img:hover {
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease; 
+}
+
+#navbar .navclass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.navclass .navli {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navclass .navli li {
+    list-style: none;
+    margin-left: 40px;
+    color: rgb(42, 42, 42);
+}
+
+.navclass .navli a {
+    text-decoration: none;
+}
+
+.navclass .navli li:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* navbar end */
+/* animation */
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+} /* */
+
+#myself .talk {
+    margin: auto;
+    width: 1000px;
+    margin-top: 80px;
+}
+
+#myself .talk h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'ClaybornRegular';
+}
+
+#myself .talk span {
+    font-size: 70px;
+    font-family: 'KarlaBoldStencil';
+}
+
+#myself .desc p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+.aboutprelink {
+    display: flex;
+    align-items: center;
+}
+
+.aboutprelink i {
+    color: rgb(121, 121, 121);
+    animation-name: right;
+    animation-duration: 0800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease; 
+}
+
+@keyframes right {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 30px;
+    }
+}
+
+.aboutprelink a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    font-weight: 100;
+    margin-right: 12px;
+}
+
+.aboutprelink a:hover {
+    text-decoration: underline;
+}
+
+/*myself fin */
+
+#navx .abt {
+    padding: 220px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+#navx .abt h1 {
+    font-size: 70px;
+    font-family: 'ClaybornRegular';
+}
+
+#navx .scolaire {
+    display: flex;
+    align-items: center;
+}
+
+#navx .scolaire h2 {
+    padding-left: 20px;
+}
+
+#navx .abt p {
+    margin-bottom: 40px;
+}
+
+/* abt end */
+
+#navx .projectflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navx .projectpic {
+    position: relative;
+}
+
+#navx .projectpic img {
+    width: 450px;
+    margin-bottom: 50px;
+    height: 250px;
+    filter: brightness(80%);
+    border-radius: 4px;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+ }
+ #navx .projectpic img:hover {
+    box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.1);
+ }
+
+ #navx .projectpic  h2 {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+ }
+
+ /* projectpic end*/
+
+ #navx .webh2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ #navx .webh2 h2 {
+    margin-left: 20px;
+ }
+ #navx .webpic {
+    display: flex;
+    justify-content: space-between;
+ }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+ #navx .webpic img {
+    width: 480px;
+    height: 250px;
+    margin-right: 20px;
+ }
+
+ #navx .radio {
+    display: flex;
+    justify-content: center;
+ }
+
+ #navx .radio i {
+    margin-right: 10px;
+    margin-top: 20px;
+    color: mediumpurple;
+    cursor: pointer;
+ }
+
+ #navx .radio i:first-child {
+    background-color: mediumpurple;
+    color: mediumpurple;
+ }
+
+
+ #navx .scolaire img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+ }
+
+ #navx .hariboflex img {
+    width: 500px;
+    height: 300px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+ }
+
+ #navx .hariboflex {
+    display: flex;
+    justify-content: space-between;}
+
+#navx .haribopic .pic1 {
+    width: 300px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+#navx .haribopic .pic2 {
+    width: 70%;
+    height: 400px;
+}
+
+#navx .haribopic {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom :60px;
+}
+
